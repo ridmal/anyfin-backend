@@ -1,0 +1,29 @@
+{
+  "name": "anyfin-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "express-rate-limit": "^6.4.0",
+    "got": "11.8.3",
+    "graphql": "^16.5.0",
+    "graphql-playground-middleware-express": "^1.7.23",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

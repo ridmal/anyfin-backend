@@ -12,4 +12,4 @@ Simple nodejs back-end to fetch counties and exchange rates.
 ### Commands
 
 - `yarn` - to install dependencies.
-- `yarn start` - to run the application in Android device.
+- `yarn start` - run the server.
